@@ -1,7 +1,7 @@
 version: "3.7"
 
 services:
-  hello-world:
+  react-template:
     container_name: react-template
     build:
       context: .
