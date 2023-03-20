@@ -1,4 +1,4 @@
-FROM gradle:6.8-jdk11-openj9
+FROM gradle:8-jdk17
 WORKDIR /home/gradle
 COPY . .
 RUN gradle bootJar
